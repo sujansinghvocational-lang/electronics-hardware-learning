@@ -3,60 +3,112 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PDF Notes</title>
+<title>PDF Notes | Electronics & Hardware Learning Portal</title>
+
 <style>
 body{
-font-family:Arial,sans-serif;
-background:#f4f4f4;
-margin:0;
+    font-family:Arial,sans-serif;
+    margin:0;
+    background:#f4f4f4;
 }
+
 header{
-background:#0b5ed7;
-color:white;
-padding:20px;
-text-align:center;
+    background:#0b5ed7;
+    color:white;
+    padding:25px;
+    text-align:center;
 }
+
 .container{
-width:90%;
-margin:auto;
-padding:20px;
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
 }
+
 .pdf{
-background:white;
-padding:15px;
-margin:15px 0;
-border-radius:10px;
-box-shadow:0 2px 5px rgba(0,0,0,0.2);
+    background:white;
+    margin:15px 0;
+    padding:18px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+    transition:.3s;
 }
-a{
-color:#0b5ed7;
-font-weight:bold;
-text-decoration:none;
+
+.pdf:hover{
+    transform:translateY(-3px);
+}
+
+.pdf h3{
+    margin:0 0 10px;
+    color:#0b5ed7;
+}
+
+.pdf p{
+    margin:5px 0 15px;
+    color:#555;
+}
+
+.download-btn{
+    display:inline-block;
+    background:#0b5ed7;
+    color:white;
+    padding:10px 18px;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+.download-btn:hover{
+    background:#084298;
 }
 </style>
+
 </head>
 <body>
 
 <header>
-<h1>📚 PDF Notes</h1>
-<p>Download Electronics & Hardware Notes</p>
+
+<h1>📚 PDF Notes / पीडीएफ नोट्स</h1>
+
+<p>
+Electronics & Hardware Learning Portal<br>
+इलेक्ट्रॉनिक्स एवं हार्डवेयर लर्निंग पोर्टल
+</p>
+
 </header>
 
 <div class="container">
 
 <div class="pdf">
-<h3>Basic Electronics Notes</h3>
-<a href="pdf/basic-electronics.pdf" download>⬇ Download PDF</a>
+<h3>📘 Basic Electronics Notes / बेसिक इलेक्ट्रॉनिक्स नोट्स</h3>
+<p>Download study notes in English & Hindi.</p>
+<a class="download-btn" href="pdf/basic-electronics.pdf" download>
+⬇ Download / डाउनलोड
+</a>
 </div>
 
 <div class="pdf">
-<h3>LED Bulb Repair Notes</h3>
-<a href="pdf/led-repair.pdf" download>⬇ Download PDF</a>
+<h3>💡 LED Bulb Repair Notes / एलईडी बल्ब रिपेयर नोट्स</h3>
+<p>Learn LED bulb repairing step by step.</p>
+<a class="download-btn" href="pdf/led-repair.pdf" download>
+⬇ Download / डाउनलोड
+</a>
 </div>
 
 <div class="pdf">
-<h3>Solar Panel Notes</h3>
-<a href="pdf/solar-panel.pdf" download>⬇ Download PDF</a>
+<h3>☀ Solar Panel Notes / सोलर पैनल नोट्स</h3>
+<p>Solar installation & maintenance notes.</p>
+<a class="download-btn" href="pdf/solar-panel.pdf" download>
+⬇ Download / डाउनलोड
+</a>
+</div>
+
+<div class="pdf">
+<h3>🗣 Employability Skills (Class 9) - Unit 1 Communication Skills<br>रोजगार कौशल (कक्षा 9) - इकाई 1 संचार कौशल</h3>
+<p>Bilingual (English + Hindi) Notes.</p>
+<a class="download-btn" href="pdf/employability-skills-unit1.pdf" download>
+⬇ Download / डाउनलोड
+</a>
 </div>
 
 </div>
